@@ -1,4 +1,4 @@
-package main.module_1;
+package main.module_01;
 
 public class HelloGoodbye {
 

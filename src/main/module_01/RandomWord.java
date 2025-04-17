@@ -1,4 +1,4 @@
-package main.module_1;
+package main.module_01;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
