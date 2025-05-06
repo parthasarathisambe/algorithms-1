@@ -15,7 +15,7 @@ public class ArithmaticExpressionEvaluation {
       } else if ('+' == value || '-' == value || '*' == value || '/' == value) {
         opers.push(value);
       } else if (Character.isDigit(value)) {
-        vals.push(Double.valueOf(Character.getNumericValue(value)));
+        vals.push((double) Character.getNumericValue(value));
       } else if (')' == value) {
         vals.push(compute(vals.pop(), opers.pop(), vals.pop()));
       }

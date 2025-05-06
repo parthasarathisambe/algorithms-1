@@ -27,3 +27,6 @@ replay_pid*
 bin/
 temp/
 .settings
+.idea/
+*.iml
+classes/
