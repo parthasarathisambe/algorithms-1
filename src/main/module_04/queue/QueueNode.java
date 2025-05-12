@@ -1,16 +1,16 @@
 package main.module_04.queue;
 
-public class QueueNode {
+public class QueueNode<T> {
 
-  String item;
+  T item;
 
-  QueueNode next;
+  QueueNode<T> next;
 
   public QueueNode() {
 
   }
 
-  public QueueNode(String item) {
+  public QueueNode(T item) {
     this.item = item;
     this.next = null;
   }
